@@ -71,3 +71,7 @@ The Sales Director needed clarity on performance metrics, revenue generation, an
 - Data modeling enables repeatable, scalable reporting for ongoing decision-making.
 
 ![Dashboard]("sales report dashboard.png")
+
+
+## **Summary**
+This project demonstrates how Excel can be leveraged for **end-to-end sales analysis** from data cleaning and modeling to reporting and dashboard visualization. By transforming raw transactional and operational data into insights, the project supports strategic decision-making and performance optimization for retail operations.
