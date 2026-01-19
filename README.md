@@ -1,41 +1,73 @@
-### Sales Analysis using Excel
-As the Data Analyst, I was instructed by the Sales Director of DTLM Retail, a fictitious store to analyze the sales data. He wants to keep tab on the store's performance in all ramifications.
+# **Sales Performance Analysis for DTLM Retail Using Excel**
 
-The store, DTLM Retail, is much into the business of sales of various products to consumers nationwide and other countries.
-
-
-### Datasets Overview
-The dataset consist of;
-
-The Sales table: This contains the order number, sales data, sales channel, currency, salesteamindex, storeindex, productindex, order qty, unit price, unit cost, revenue, profit
-
-Products: This contains index, Product Name and Category
-
-Store Locations: This contains name, county, state code, state, longitude, latitude, area code, population, households, median income, land area, water area, time zone
-
-Sales team: This conatins index number, sales team, region.
+## **Project Overview**
+DTLM Retail operates across multiple regions, selling diverse products to a national and international customer base. The Sales Director requested a structured analysis of store performance to identify revenue drivers, high-performing products, and sales team efficiency. This project translates raw transactional and operational data into actionable insights using Excel’s advanced data modeling, reporting, and visualization capabilities.
 
 
-### To gather insights on the stores performance, I was directed to provide answers to the following questions;
+## **Purpose**
+**Primary Goal:** Provide a clear, data-driven view of sales performance across products, stores, and sales teams.  
 
-1. What is the revenue and profit for every order?
+**Secondary Goal:** Identify revenue trends, product and sales team performance, and key metrics that influence profitability for strategic decision-making.
 
-2. What are the two top revenue produdcts in January?
-
-3. Which sales team made most revenue from Decoratives in March?
-
-4. Identify which metric(s) correlates with revenue per state?
-
-
-### The following are processes I used, in a bid to provide answer to the business questions:
-
-Cleaned the data using power query and merging necessary tables to overcome ambiguity.
-
-Created relationships; data modeling between the tables
-
-Created reports using Pivot table and visualized my reports via charts
-
-Designed my dashboard with the reports and most important metrics.
+## **Technical Stack**
+- **Microsoft Excel:** Pivot Tables, Charts, Data Modeling  
+- **Power Query:** Data cleaning, table merging, and transformation  
+- **Excel Formulas:** SUMIFS, VLOOKUP, INDEX–MATCH for calculations  
+- **Visualization:** Interactive charts and dashboard design
 
 
-![sales report dashboard](https://github.com/NIYICODE/Retail-Store-Sales-Analysis/assets/108121121/f62e814d-8ed8-401f-bb1f-418a317df641)
+## **Data Source**
+The project utilized multiple interconnected datasets:
+
+| Table | Key Columns |
+|-------|------------|
+| **Sales** | Order Number, Order Date, Sales Channel, Currency, Sales Team Index, Store Index, Product Index, Order Qty, Unit Price, Unit Cost, Revenue, Profit |
+| **Products** | Product Index, Product Name, Product Category |
+| **Store Locations** | Store Name, County, State Code, State, Longitude, Latitude, Area Code, Population, Households, Median Income, Land & Water Area, Time Zone |
+| **Sales Team** | Team Index, Sales Team, Region |
+
+
+
+## **Analytical Narrative & Key Questions**
+
+### **Business Problem**
+The Sales Director needed clarity on performance metrics, revenue generation, and key product and team contributions. Without structured analysis, identifying high-value products, efficient sales teams, and regional revenue drivers was difficult.
+
+### **Analytical Questions**
+1. What is the revenue and profit per order?  
+2. Which were the top 2 revenue-generating products in January?  
+3. Which sales team generated the most revenue from Decoratives in March?  
+4. Which metrics correlate with revenue at the state level?  
+5. How do store locations, population, and demographics influence sales?
+
+
+
+## **Data Preparation & Modeling**
+- **Data Cleaning:** Used Power Query to remove inconsistencies and missing values.  
+- **Table Merging:** Integrated multiple tables (Sales, Products, Store Locations, Sales Team) to create a unified dataset.  
+- **Relationships:** Established data modeling relationships between tables to enable accurate calculations and PivotTable reporting.  
+- **Metrics Engineering:** Calculated revenue and profit per order and aggregated by product, team, and state.
+
+
+
+## **Reporting & Visualization**
+- **Pivot Tables:** Generated reports for orders, products, sales teams, and regional metrics.  
+- **Charts & Visuals:** Created line charts, bar charts, and heatmaps to highlight revenue trends, top products, and team performance.  
+- **Dashboard:** Consolidated key insights into an interactive Excel dashboard, emphasizing revenue, profit, and product/team performance.
+
+
+
+## **Business Impact & Insights**
+- **Revenue Drivers:** Identified products and time periods contributing the most revenue.  
+- **Team Performance:** Highlighted high-performing sales teams and areas for improvement.  
+- **Regional Insights:** Discovered correlations between revenue and store demographics, guiding expansion and marketing strategy.  
+- **Decision Support:** The interactive dashboard allows leadership to monitor sales, evaluate strategies, and make data-driven decisions.
+
+
+## **Key Takeaways**
+- Pivot tables and dashboards effectively translate raw sales data into actionable insights.  
+- Integrating multiple datasets provides a holistic view of performance across products, teams, and regions.  
+- Revenue, profit, and product performance metrics highlight actionable opportunities for sales optimization.  
+- Data modeling enables repeatable, scalable reporting for ongoing decision-making.
+
+![Dashboard]("sales report dashboard.png")
